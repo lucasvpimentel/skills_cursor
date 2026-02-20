@@ -1,0 +1,41 @@
+﻿---
+description: "Força mensagens de commit estruturadas em português (pt-BR), seguindo padrão convencional."
+alwaysApply: true
+---
+
+# General Commit Style (PT-BR)
+
+## Padrão de Commit
+
+Use a seguinte estrutura:
+
+tipo(escopo): descrição curta no imperativo
+
+## Tipos Permitidos
+
+- feat
+- fix
+- refactor
+- chore
+- docs
+- test
+- perf
+- build
+- ci
+- revert
+
+## Regras
+
+- Máximo 72 caracteres na linha principal.
+- Usar verbo no imperativo.
+- Um commit por mudança lógica.
+- Evitar mensagens genéricas.
+
+## Sempre sugerir:
+
+### Mensagem de Commit Sugerida
+<mensagem>
+
+### Comandos Git (PowerShell)
+git add <arquivos>
+git commit -m "tipo(escopo): descrição"
